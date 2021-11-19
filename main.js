@@ -1,5 +1,5 @@
 const { Telegraf } = require('telegraf')
-const TOKEN = process.env.TOKEN;
+const TOKEN = "2109174935:AAGtxZdN1685pYXCGQFO265hoGIHIDe9IC0";
 const bot = new Telegraf(TOKEN);
 const youtubedl = require('youtube-dl-exec');
 
